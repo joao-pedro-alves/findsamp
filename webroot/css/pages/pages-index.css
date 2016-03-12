@@ -1,0 +1,70 @@
+#pages-index .motd-wrap {
+	height: 200px;
+	padding-top: 20px;
+	background-image: url(../../img/index-motd-bg.jpg);
+}
+
+#pages-index .motd-wrap h1 {
+	margin-bottom: 20px;
+	color: #F07E13;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#pages-index .motd-wrap .form-wrap {
+	margin-bottom: 20px;
+}
+
+#pages-index .motd-wrap .input {
+	padding: 10px 15px;
+	background-color: rgba(255, 255, 255, .2);
+	border: 2px solid rgba(255, 255, 255, .4);
+	color: #fff;
+	font-weight: bold;
+}
+
+#pages-index .motd-wrap .default-btn {
+	float: left;
+	margin-right: 15px;
+}
+
+#pages-index .motd-wrap .ip-input {
+	width: 200px;
+	margin-right: 10px;
+}
+
+#pages-index .motd-wrap .port-input {
+	width: 80px;
+}
+
+#pages-index .motd-wrap .message-wrap {
+	display: inline-block;
+	margin-top: 5px;
+	padding: 5px 10px;
+	background-color: rgba(0, 0, 0, .4);
+	font-weight: bold;
+}
+
+#pages-index .motd-wrap .message-wrap .success {
+	color: #00D900;
+}
+
+#pages-index .motd-wrap .message-wrap .warning {
+	color: #FFBF00;
+}
+
+#pages-index .motd-wrap ::-webkit-input-placeholder {
+	color: #fff;
+}
+
+#pages-index .motd-wrap :-moz-placeholder {
+	color: #fff;
+}
+
+#pages-index .motd-wrap ::-moz-placeholder {
+	color: #fff;
+}
+
+#pages-index .motd-wrap :-ms-input-placeholder { 
+	color: #fff;
+}

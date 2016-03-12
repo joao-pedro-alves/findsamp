@@ -1,5 +1,32 @@
+/* Global styles */
+body {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #666;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+}
+
+/* Global classes */
 .wrap {
 	position: relative;
 	width: 990px;
 	margin: auto;
+}
+
+.default-btn {
+	padding: 10px 15px;
+	border: 0;
+	background-color: #F17F16;
+	color: #fff;
+	font-weight: 200;
+	font-style: italic;
+	transition: all .5s;
+}
+
+.default-btn:hover {
+	background-color: #F28C31;
 }
