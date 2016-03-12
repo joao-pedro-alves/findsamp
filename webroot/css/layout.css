@@ -1,0 +1,30 @@
+/**
+ * Global header
+ */
+#global-header .main-bar {
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	background-image: url(../img/main-bar-bg.jpg);
+}
+
+#global-header .main-bar .logo-wrap {
+	display: inline-block;
+	margin-top: 10px;
+} /* Global Header */
+
+/**
+ * Global footer
+ */
+#global-footer .copyright-wrap {
+	margin-top: 100px;
+	padding: 20px 0;
+	color: #999;
+	background-color: #444;
+}
+
+#global-footer .copyright-wrap .contribute {
+	color: #999;
+	font-weight: bold;
+}
+/*Global Footer*/
