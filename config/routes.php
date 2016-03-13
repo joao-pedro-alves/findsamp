@@ -59,6 +59,14 @@ Router::scope('/', function (RouteBuilder $routes) {
     ]);
 
     /**
+     * Server stats route
+     */
+    $routes->connect('/server/*', [
+        'controller' => 'Servers',
+        'action' => 'display'
+    ]);
+
+    /**
      * Connect catchall routes for all controllers.
      *
      * Using the argument `DashedRoute`, the `fallbacks` method is a shortcut for

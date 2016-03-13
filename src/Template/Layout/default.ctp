@@ -12,6 +12,7 @@
     <?= $this->Html->css('layout') ?>
     <?= $this->Html->css('pages/pages-index') ?>
     <?= $this->Html->css('pages/servers-vote') ?>
+    <?= $this->Html->css('pages/servers-display') ?>
 </head>
 <body>
     <div id="global-wrap">
@@ -42,7 +43,12 @@
                 </div>
             </div>
         </div> <!-- Global footer -->
-    </div> 
+    </div>
+    <!-- 3rd-party scripts -->
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <!-- 3rd-party scripts -->
+    <?= $this->Html->script('chart-settings') ?>
 </body>
 </html>

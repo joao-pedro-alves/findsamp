@@ -1,0 +1,46 @@
+#servers-display h1 {
+	margin-bottom: 10px;
+}
+
+#servers-display .rank-infos {
+	margin-bottom: 30px;
+}
+
+#servers-display .rank-infos .count {
+	display: inline-block;
+	padding: 12px 15px;
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #39c;
+	border-radius: 5px;
+}
+
+#servers-display .rank-infos .legend {
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+#servers-display .server-infos td {
+	padding: 4px 10px;
+}
+
+#servers-display .server-infos .voting-infos b {
+	color: #F17F16;
+}
+
+#servers-display .server-infos .voting-infos td {
+	padding-top: 20px;
+	padding-bottom: 0;
+}
+
+#servers-display .server-stats {
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top: 1px solid #c1c1c1;
+}
+
+#server-stats-chart {
+	width: 100%;
+	height: 150px;
+}
