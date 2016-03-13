@@ -40,7 +40,7 @@
 			</tr>
 		</table>
 		<div class="server-stats">
-			<h2>Estatíscas do dia</h2>
+			<h2>Estatísticas do dia</h2>
 			<canvas id="server-stats-chart"></canvas>
 		</div>
 	</div>	
