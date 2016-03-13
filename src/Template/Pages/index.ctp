@@ -79,4 +79,38 @@
 			<?= $this->Form->end() ?>
 		</div>
 	</section> <!-- Search filters -->
+	<!-- Server list -->
+	<section class="server-list">
+		<div class="wrap">
+			<h1>TOP 50 SERVIDORES</h1>	
+			<table class="table servers-table table-striped">
+				<thead>
+					<tr>
+						<th>Rank</th>
+						<th>Votos</th>
+						<th>Hostname</th>
+						<th>IP:Port</th>
+						<th>Jogadores</th>
+						<th>Média</th>
+						<th>Gamemode</th>
+						<th>Linguagem</th>
+					</tr>
+				</thead>
+				<tbody>
+					<?php foreach (range(0, 49) as $v): ?>
+					<tr>
+						<td><span class="rank-pos">1º</span></td>
+						<td><span class="votes">412</span></td>
+						<td><a href="#">Brasil - Cidade Virtual [TSSA] [0.3.7] [RPG]</a></td>
+						<td><a href="#">198.50.187.245:7777</a></td>
+						<td align="center"><b>44</b>/<small><i>200</i></small></td>
+						<td align="center">33.92</td>
+						<td>BRASIL [DX]MATA MATA</td>
+						<td>Português</td>
+					</tr>
+					<?php endforeach ?>
+				</tbody>
+			</table>
+		</div>
+	</section> <!-- Server list -->
 </div>

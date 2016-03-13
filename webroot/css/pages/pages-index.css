@@ -70,6 +70,12 @@
 	color: #fff;
 }
 
+#pages-index .search-filters {
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #c1c1c1;
+}
+
 #pages-index .search-filters .form-group {
 	display: table;
 	margin-bottom: 20px;

@@ -10,6 +10,13 @@ h1, h2, h3, h4, h5 {
 	padding: 0;
 }
 
+h1 {
+	margin-bottom: 40px;
+	font-size: 34px;
+	font-weight: 600;
+	color: #F07E13;
+}
+
 h2 {
 	margin-bottom: 30px;
 	font-size: 20px;
@@ -50,4 +57,24 @@ input[type='password'] {
 
 .default-btn:hover {
 	background-color: #F28C31;
+}
+
+.servers-table td {
+	padding: 15px 10px!important;
+}
+
+.servers-table .rank-pos {
+	background: #F17F16;
+	padding: 7px 10px;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.servers-table .votes {
+	padding: 3px 6px;
+	font-size: 13px;
+	background-color: #36c;
+	border-radius: 5px;
+	color: #fff;
 }
