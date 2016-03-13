@@ -46,6 +46,10 @@
 	font-weight: bold;
 }
 
+#pages-index .motd-wrap .message-wrap a {
+	color: #fff;
+}
+
 #pages-index .motd-wrap .message-wrap .success {
 	color: #00D900;
 }
@@ -55,19 +59,19 @@
 }
 
 #pages-index .motd-wrap ::-webkit-input-placeholder {
-	color: #fff;
+	color: rgba(255, 255, 255, .7);
 }
 
 #pages-index .motd-wrap :-moz-placeholder {
-	color: #fff;
+	color: rgba(255, 255, 255, .7);
 }
 
 #pages-index .motd-wrap ::-moz-placeholder {
-	color: #fff;
+	color: rgba(255, 255, 255, .7);
 }
 
 #pages-index .motd-wrap :-ms-input-placeholder { 
-	color: #fff;
+	color: rgba(255, 255, 255, .7);
 }
 
 #pages-index .search-filters {

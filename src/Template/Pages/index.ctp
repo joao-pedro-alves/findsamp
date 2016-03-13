@@ -9,6 +9,8 @@
 					'class' => 'input ip-input',
 					'label' => false,
 					'placeholder' => 'Endereço de IP',
+					'autocomplete' => 'off',
+					'required' => 'required',
 					'templates' => [
 						'inputContainer' => '{{content}}'
 					]
@@ -17,15 +19,23 @@
 					'class' => 'input port-input',
 					'label' => false,
 					'placeholder' => 'Porta',
+					'autocomplete' => 'off',
+					'required' => 'required',
 					'templates' => [
 						'inputContainer' => '{{content}}'
 					]
 				]) ?>
 			</div>
-			<button class="default-btn">PROCURAR</button>
+			<button class="default-btn" onclick="this.innerHTML = 'CARREGANDO...'">ADICIONAR</button>
 			<div class="message-wrap">
-				<!-- <span class="warning"><i class="fa fa-exclamation-circle"></i> Servidor adicionado com sucesso</span> -->
-				<span class="success"><i class="fa fa-check-circle"></i> Servidor adicionado com sucesso</span>
+				<?php if (isset($addServerError)): ?>
+				<span class="warning"><i class="fa fa-exclamation-circle"></i> <?= $errorMessage ?></span>
+				<?php endif ?>
+
+				<?php if ($this->request->query('status') == 'success'): ?>
+				<span class="success"><i class="fa fa-check-circle"></i> Servidor adicionado com sucesso! Link de votação: <?= $this->Html->link($this->Url->build('/', true) . 'voting/' . $this->request->query('returned_id')) ?>
+				</span>
+				<?php endif ?>
 			</div>
 			<?= $this->Form->end() ?>
 		</div>

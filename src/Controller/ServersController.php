@@ -1,6 +1,8 @@
 <?php
 namespace App\Controller;
 
+use App\Lib\SAMPQuery;
+
 class ServersController extends AppController
 {
 	public function vote($id = 0)
@@ -10,6 +12,6 @@ class ServersController extends AppController
 
 	public function display($id = 0)
 	{
-
+		
 	}
 }
