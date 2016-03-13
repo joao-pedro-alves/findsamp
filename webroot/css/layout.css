@@ -9,6 +9,8 @@
 }
 
 #global-header .main-bar .logo-wrap {
+	z-index: 2;
+	position: relative;
 	display: inline-block;
 	margin-top: 10px;
 } /* Global Header */

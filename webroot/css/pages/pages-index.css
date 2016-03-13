@@ -1,10 +1,11 @@
 #pages-index .motd-wrap {
+	margin-bottom: 40px;
 	height: 200px;
 	padding-top: 20px;
 	background-image: url(../../img/index-motd-bg.jpg);
 }
 
-#pages-index .motd-wrap h1 {
+#pages-index .motd-wrap h2 {
 	margin-bottom: 20px;
 	color: #F07E13;
 	font-size: 20px;
@@ -67,4 +68,49 @@
 
 #pages-index .motd-wrap :-ms-input-placeholder { 
 	color: #fff;
+}
+
+#pages-index .search-filters .form-group {
+	display: table;
+	margin-bottom: 20px;
+}
+
+#pages-index .search-filters .column {
+	float: left;
+	margin-right: 30px;
+}
+
+#pages-index .search-filters .filter-online {
+	display: table;
+	width: 100%;
+}
+
+#pages-index .search-filters .filter-online label {
+	display: inline-block;	
+	margin-right: 10px;
+	font-weight: normal;
+}
+
+#pages-index .search-filters .filter-online input[type='text'] {
+	width: 50px;	
+}
+
+#pages-index .search-filters .filter-online input[type='radio'],
+#pages-index .search-filters .filter-online input[type='checkbox'] {
+	margin-right: 5px;
+}
+
+#pages-index .search-filters .filter-online .input {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#pages-index .search-filters .filter-online .form-title {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#pages-index .search-filters .radio-box label {
+	display: block;
 }
