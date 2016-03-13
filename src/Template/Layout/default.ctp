@@ -11,6 +11,7 @@
     <?= $this->Html->css('global') ?>
     <?= $this->Html->css('layout') ?>
     <?= $this->Html->css('pages/pages-index') ?>
+    <?= $this->Html->css('pages/servers-vote') ?>
 </head>
 <body>
     <div id="global-wrap">
@@ -42,5 +43,6 @@
             </div>
         </div> <!-- Global footer -->
     </div> 
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </body>
 </html>

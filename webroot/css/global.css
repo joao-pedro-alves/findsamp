@@ -1,4 +1,6 @@
-/* Global styles */
+/**
+ * Global styles
+ */
 body {
 	font-family: 'Open Sans';
 	font-size: 14px;
@@ -38,13 +40,21 @@ input[type='password'] {
 	color: #666;
 }
 
-/* Global classes */
+/**
+ * Global classes
+ */
+/* Global wrapping */
 .wrap {
 	position: relative;
 	width: 990px;
 	margin: auto;
+} /* Global wrapping */
+
+.alert {
+	margin-bottom: 40px;
 }
 
+/* Default action button */
 .default-btn {
 	padding: 10px 15px;
 	border: 0;
@@ -57,8 +67,9 @@ input[type='password'] {
 
 .default-btn:hover {
 	background-color: #F28C31;
-}
+} /* Default action button */
 
+/* Server list table */
 .servers-table td {
 	padding: 15px 10px!important;
 }
@@ -77,4 +88,9 @@ input[type='password'] {
 	background-color: #36c;
 	border-radius: 5px;
 	color: #fff;
-}
+} /* Server list table */
+
+/* Default page margin */
+.page-margin {
+	margin-top: 60px;
+} /* Default page margin */

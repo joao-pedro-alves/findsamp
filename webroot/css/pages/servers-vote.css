@@ -1,0 +1,27 @@
+#servers-vote {
+	margin-top: 120px;
+	text-align: center;
+}
+
+#servers-vote .action-title {
+	margin-bottom: 40px;
+	font-size: 32px;
+	color: #999;
+	font-weight: nornal;
+	font-style: italic;
+}
+
+#servers-vote .servername {
+	margin-bottom: 20px;
+	font-size: 26px;
+}
+
+#servers-vote .recaptcha-wrap {
+	display: inline-block;
+}
+
+#servers-vote button[type=submit] {
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+}
